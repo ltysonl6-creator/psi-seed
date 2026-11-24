@@ -1,0 +1,532 @@
+{
+  "release": "psi-seed-1.0.0",
+  "constitutional_version": "1.0",
+  "status": "FROZEN",
+  "files": [
+    {
+      "path": "CACC_DEVELOPMENTAL_JOINTS_REPORT.md",
+      "sha256": "38cc4015ec4f7045dd8c667d058634ce8dd438a902a71f7b01d4f3949ea3b7f9",
+      "size": 1128
+    },
+    {
+      "path": "CACC_HISTORY_INTEGRITY_V0.6.md",
+      "sha256": "a09c4f1eba471d751b699cf76daf6e1244518bf45b8dbff015ab10edbb45c965",
+      "size": 2268
+    },
+    {
+      "path": "CACC_INTEGRITY_LOOP_V0.4.md",
+      "sha256": "5aa99b66d27015c7e2530c8e5a536576abdcabf2b5e0d15e42a9c9249fcd75b1",
+      "size": 1887
+    },
+    {
+      "path": "CACC_JOINTS_MANIFEST.json",
+      "sha256": "8820cbb80ec6d0e3fc6cfb04f30bbdd8ab9a5766ef1935fbb4dafb6abdbfe63c",
+      "size": 918
+    },
+    {
+      "path": "CACC_ROOT_ROTATION_ROLLBACK_V0.8.md",
+      "sha256": "d57822dc37e71356093a8121ed546a67380fe9d5599983f119ed5ea6fbf34ad3",
+      "size": 1600
+    },
+    {
+      "path": "CACC_STATE_ROLLBACK_V0.9.md",
+      "sha256": "8d087689e05670df12532c95f61ae505e49949909d54a5cfa109aa2eac07128a",
+      "size": 1446
+    },
+    {
+      "path": "CONSTITUTIONAL_CHANGE_POLICY_V1.0.md",
+      "sha256": "6a9fdaf0526f54c8c790390aa4e774995ce66c031ff41de51b70aad39d0a5d03",
+      "size": 1379
+    },
+    {
+      "path": "CONSTITUTIONAL_FREEZE_V1.0.md",
+      "sha256": "6c3c26b3ea3e78b35ec2d15b230ccebbe9b0e1451f2edc10cbbde9c308cebb59",
+      "size": 4207
+    },
+    {
+      "path": "CONSTITUTIONAL_PATH_V0.11.8.md",
+      "sha256": "3019d35598428f20d9a39c9bdc2b442bdc076514de3f98c7ccc80d6ef1af5b87",
+      "size": 3310
+    },
+    {
+      "path": "CONSTITUTIONAL_PATH_V0.11.9.md",
+      "sha256": "32302d26ef7fe0acdb95ea8212c29a8de0fed0f5ac2fa03dd066e9e891bf691b",
+      "size": 2950
+    },
+    {
+      "path": "CONSTITUTIONAL_PATH_V0.12.md",
+      "sha256": "f0b39fd4bdad946b6302282efb0cf33d5e2ca5973d8e7bc099c5597dcbbb662d",
+      "size": 1553
+    },
+    {
+      "path": "README.md",
+      "sha256": "5930e3095cc87ba81f81f97b44ed20d2389c6fccf8310e9157bfda827852d9eb",
+      "size": 2386
+    },
+    {
+      "path": "README_ATTACK_V0.11.7.md",
+      "sha256": "4ec72cf279a62ac25c339518ad28e6dfcee4d25f196d7890dccf4ad17de7c421",
+      "size": 1804
+    },
+    {
+      "path": "README_TRUSTED_ROOT_V0.7.md",
+      "sha256": "eb5468bf16c9ed9ccabee1218f6d5df446157200da7774eaf13de6070e79830b",
+      "size": 744
+    },
+    {
+      "path": "README_V0.11.2.md",
+      "sha256": "eb9c7c807be76c83452a70d0d8b7595b1a1e3ea9989963c799207495dba33b33",
+      "size": 276
+    },
+    {
+      "path": "REPLAY_ATTACK_REPORT.md",
+      "sha256": "3f462e778702fbe31b3682986b06dfb41d6d7ec504543465563e677e7058b48a",
+      "size": 1564
+    },
+    {
+      "path": "SEMANTIC_AUTHORITY_TRANSITION_REDTEAM_V0.11.7.md",
+      "sha256": "cf89327b9d19d9c3624c1e62f9e0f4aa94a057d5a226ca2feaf705bed0fcdfad",
+      "size": 3816
+    },
+    {
+      "path": "SEMANTIC_CONVERGENCE_V0.11.3.md",
+      "sha256": "4b8ed50845f5a180599d559eac1c82f7f8aafeb18e4237fdf9b037ce318958ae",
+      "size": 1588
+    },
+    {
+      "path": "SEMANTIC_INTEGRITY_V0.11.md",
+      "sha256": "15f4b2b3bdaeb33aaab7b5f097bd3e6a248b1a5f55aef80ab10610df2f0562fa",
+      "size": 2752
+    },
+    {
+      "path": "SEMANTIC_MANIFEST_AUTHORITY_V0.11.5.md",
+      "sha256": "b6e3af18c9a676b91d0e6b7d3289f90254f04e4174ecffe5cce7fefb9d3b0955",
+      "size": 2019
+    },
+    {
+      "path": "SEMANTIC_REDTEAM_V0.10_REPORT.md",
+      "sha256": "59ded56dd0bb85ba41c56f07768fcad70bd26c2dc201be6c0bfc18debc344ac4",
+      "size": 4371
+    },
+    {
+      "path": "SEMANTIC_RELEVANCE_MANIFEST_V0.11.4.md",
+      "sha256": "13d7abe56e7da4ac33f0caffc56f72ef7bc410433724868a8429fe56dd393dd0",
+      "size": 2365
+    },
+    {
+      "path": "SEMANTIC_REPLAY_V0.11.2.md",
+      "sha256": "9727ce88f55d0bbf2a777bd5cc856758331691984538635480988be1be970d0b",
+      "size": 1951
+    },
+    {
+      "path": "STRESS_REPORT.md",
+      "sha256": "70728985354131051a4d56cdf5f61d85eed191735db8f43ffb6d01df20f6ac3c",
+      "size": 1973
+    },
+    {
+      "path": "STRESS_REPORT_V0.9.md",
+      "sha256": "40fda1e9799eb9f89ae8d9a6f57acab57a6558d2ae2745510e498c2faf9db888",
+      "size": 703
+    },
+    {
+      "path": "V0.10_REPORT.md",
+      "sha256": "7109875bdb57eec6f4f826f73850bd83f56e7f7dadd481046c676f107f5935b7",
+      "size": 1918
+    },
+    {
+      "path": "V0.11.9_REPORT.md",
+      "sha256": "2a2f7103abf80a1ff58237824c14e49b3d2238909a01d8159eff83b65ef82a59",
+      "size": 862
+    },
+    {
+      "path": "V0.11_REPORT.md",
+      "sha256": "fd2476243499415e22f49e3813a8bf2657e6c80e58ef6a392f564af828c3db21",
+      "size": 1468
+    },
+    {
+      "path": "VERSION",
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+      "size": 6
+    },
+    {
+      "path": "contracts/cacc_joint_validation.py",
+      "sha256": "27e2aa79682d0053596706d29b2805e8174f9f2b0ecf919ba2ac9f3a5b3de7e9",
+      "size": 1698
+    },
+    {
+      "path": "contracts/cacc_joints_contract.md",
+      "sha256": "65a0eda757c49355b2aa2f062e03bd000d327148fcc723ed7d798c52a97b968d",
+      "size": 7393
+    },
+    {
+      "path": "contracts/cacc_relationship_types.py",
+      "sha256": "a5e6543f93574d6ff7570dd95990b859dafdf38ec26507864a9304e8ee78c989",
+      "size": 1193
+    },
+    {
+      "path": "contracts/constitutional_contract.py",
+      "sha256": "600466ab52b66906772234d28e99a43c0b4a56a223aa6fa61b4a4eaae3bd763c",
+      "size": 4004
+    },
+    {
+      "path": "contracts/constitutional_manifest.v1.0.json",
+      "sha256": "07d65bbd8031416565186dee1836e47aa42c34c832fe3ff925f2436f4ef07d06",
+      "size": 1067
+    },
+    {
+      "path": "contracts/constitutional_path.py",
+      "sha256": "a81d45c6dfc7f8ef0263d913417cfb13280f8ea5dc06d24a309bbe01f65c5c37",
+      "size": 14008
+    },
+    {
+      "path": "contracts/developmental_continuation_contract.md",
+      "sha256": "8a536361d07ffa4200651d0991d4d0218a5307203f6732ca16620bbb22223826",
+      "size": 6492
+    },
+    {
+      "path": "contracts/persistence_backend_contract.md",
+      "sha256": "f2b5bfc121af0000fd39fecbe2117d89cb129a4ea99aedf47ac610879f9baa88",
+      "size": 11627
+    },
+    {
+      "path": "contracts/schemas/candidate-selection.schema.json",
+      "sha256": "56d63ab51f44205cefedbd0df9c1fc4617d21ba8210cf96252fc326597b4f126",
+      "size": 1109
+    },
+    {
+      "path": "contracts/schemas/choice.schema.json",
+      "sha256": "59d1b21b25bce833599045c5a2813c2d389af4f7e8f8564d26a9da11ec95555a",
+      "size": 1308
+    },
+    {
+      "path": "contracts/schemas/continuation-state.schema.json",
+      "sha256": "6e28df62018acd5d790ec8c31ff646c3f0d0789308a9b2201a5e2cfa1e7d4b43",
+      "size": 1922
+    },
+    {
+      "path": "contracts/schemas/evaluation.schema.json",
+      "sha256": "8e66bffcd7674fb46d31c73d4f037e0700a13e48feb7eb76e65141055984d824",
+      "size": 1056
+    },
+    {
+      "path": "contracts/schemas/governance-decision.schema.json",
+      "sha256": "46ab06de99add9a8376c908fe4392eba0bba7b7dbc2d2bf12899746f99f65ace",
+      "size": 1053
+    },
+    {
+      "path": "contracts/schemas/possibility.schema.json",
+      "sha256": "b1446ae79f5f68fb15e5e75c8a69a18c24056747c29f35abe4d247c8bd96792a",
+      "size": 1399
+    },
+    {
+      "path": "contracts/schemas/semantic-integrity-report.schema.json",
+      "sha256": "75dd2d0ac32af0b058a04060fc8d265afa25b629270e256bb3ba8eddb30519b1",
+      "size": 885
+    },
+    {
+      "path": "contracts/schemas/transition-transaction.schema.json",
+      "sha256": "9795f53861780927efd4a71c56c4e7ca78e321d39d2d6f2cdc086fc267e8e3e3",
+      "size": 1350
+    },
+    {
+      "path": "contracts/schemas/trusted-root.schema.json",
+      "sha256": "ab8bfe49ff1b428c220f6792d84eca69bf3360d78b454c9add28df25c457b17d",
+      "size": 1174
+    },
+    {
+      "path": "contracts/semantic-relevance-manifest.v0.11.4.json",
+      "sha256": "6e95ee338b543f7178b1c365a9c8a887612101e40486681e6145f30cf6260104",
+      "size": 2168
+    },
+    {
+      "path": "contracts/semantic_authority_transition.py",
+      "sha256": "4146414d9c5670d3712d507648e780f6cb8e645a5b8b9732eb33d635563f62d2",
+      "size": 2767
+    },
+    {
+      "path": "contracts/semantic_convergence.py",
+      "sha256": "651570e5099be1817c8ade7a9dd7104e5427b9cdf3ec1f33d31fc7cd1df741d3",
+      "size": 2153
+    },
+    {
+      "path": "contracts/semantic_integrity.py",
+      "sha256": "1360ee361bf47845d557ef680b376b32f78bb592ffdbd81b9fff06eae95bf322",
+      "size": 11198
+    },
+    {
+      "path": "contracts/semantic_manifest_authority.py",
+      "sha256": "abb516cbca535c220bdba47a431240b215df4ee21adffe08d1f61b3d352e0573",
+      "size": 5895
+    },
+    {
+      "path": "contracts/semantic_relevance_manifest.py",
+      "sha256": "c1fb779b1e50fc2b38744fd178506b2b7710f415dd8dc729ae55d9aa0906fd29",
+      "size": 7362
+    },
+    {
+      "path": "contracts/semantic_replay.py",
+      "sha256": "ce6c30548acfe9aa348f467edd1739c679e10f23b199ada57ca45e9f2682f498",
+      "size": 7541
+    },
+    {
+      "path": "contracts/trusted_root_contract.md",
+      "sha256": "b848f3a465c9b5610dc76759ad3671bd6c49817ba7d5076daf91f0f0b3f36b6b",
+      "size": 5360
+    },
+    {
+      "path": "docs/architecture/developmental_continuation.md",
+      "sha256": "ad4ff5d623ca610d95501d959941682be745d49e5a9f812a62ad225ff81c18bf",
+      "size": 653
+    },
+    {
+      "path": "docs/publication/PUBLICATION_READINESS_V1.0.md",
+      "sha256": "bd8ae1d9e7d18c464ac0876cdc125b15df7f19dadc0052d0a989eb2ba2d44026",
+      "size": 1442
+    },
+    {
+      "path": "psi_seed/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "psi_seed/cacc/__init__.py",
+      "sha256": "ba4e6c93d5fabce6f22c6e0c123c4b27643849f9e2a212c026a2b11c68440004",
+      "size": 105
+    },
+    {
+      "path": "psi_seed/cacc/service.py",
+      "sha256": "fa0fe34821f0cb3732c0f7c81c2750173bec3e639075bdfb57366216977efd64",
+      "size": 29759
+    },
+    {
+      "path": "psi_seed/cacc/trusted_root.py",
+      "sha256": "9f0eb4fc586a33d1567aff45c1d9d64ff9dedede0e41266f6ab4f7c162b90eb1",
+      "size": 5705
+    },
+    {
+      "path": "psi_seed/persistence/__init__.py",
+      "sha256": "945a6efc4d3e2aaea658cd428a26b27aaeba3cfae4d5e51e4ae0eb2d131b5132",
+      "size": 119
+    },
+    {
+      "path": "psi_seed/persistence/sqlite/__init__.py",
+      "sha256": "84fd9f8456210a7ea063ac7cf689abd153b2698b0d8f7dbc858d43a739533bf2",
+      "size": 177
+    },
+    {
+      "path": "psi_seed/persistence/sqlite/backend.py",
+      "sha256": "a27a139f489eeca0fc8613317cd91dd9a0c932c670e0e48ba7a48964d7cbd3b3",
+      "size": 60757
+    },
+    {
+      "path": "psi_seed/persistence/sqlite/errors.py",
+      "sha256": "594e70a3e86761be87eadba1b0b274382031262f5b9face27c2b237f6772343a",
+      "size": 521
+    },
+    {
+      "path": "psi_seed/persistence/sqlite/schema.py",
+      "sha256": "a690c7eab1069e97a7af2b5af98e0d7ee7e7f9370bbf8d2a2d0876caf9bd5a3f",
+      "size": 3229
+    },
+    {
+      "path": "psi_seed/persistence/testing/__init__.py",
+      "sha256": "1a6c85a33b2c4621de6dcab4296e68c86ab2948748b6b9546c6a31c0c65e0764",
+      "size": 342
+    },
+    {
+      "path": "psi_seed/persistence/testing/backend_protocol.py",
+      "sha256": "d735cba586e69097bd2482c75028d8e5b6b03badd1ff295a0f1c360e9b0efc7c",
+      "size": 6748
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "30db1bb437da80bdb80e2d4120b1baf60f9fd284ded3070c2d4b2f6a8e6d263e",
+      "size": 380
+    },
+    {
+      "path": "tests/cacc/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "tests/cacc/conftest.py",
+      "sha256": "3d4f3aa10e9ccf74c678dc0eff0839b707e5ed364608ac5f2582d3936180abda",
+      "size": 190
+    },
+    {
+      "path": "tests/cacc/test_cacc_integrity_loop.py",
+      "sha256": "fd45caf2c42c8a2dd0885a818250e571b71c22db9c37f1408ad89e41b3f6883c",
+      "size": 6573
+    },
+    {
+      "path": "tests/cacc/test_cacc_joints.py",
+      "sha256": "c2b00b7a3299c1fe31dd84d4688fcbc612b470dd6902f751c485158f39c35a70",
+      "size": 3556
+    },
+    {
+      "path": "tests/cacc/test_cacc_stress.py",
+      "sha256": "068740836467eb470c9d62d57b35896d3d276902bd22af56997188f6ebc5facc",
+      "size": 9262
+    },
+    {
+      "path": "tests/cacc/test_constitutional_freeze_v1.py",
+      "sha256": "f61da349962e38bc0f6b0040a5452ca54c6cec6c7b0eaf00404e7277a05b70a5",
+      "size": 1003
+    },
+    {
+      "path": "tests/cacc/test_constitutional_path_authority_v012.py",
+      "sha256": "a7c0ed9f9a880639223e905ade8520979212e8224f7106774d4ce58f36b3618e",
+      "size": 4491
+    },
+    {
+      "path": "tests/cacc/test_constitutional_path_v0118.py",
+      "sha256": "56924af0b832be9410ca5b32564b6d805da5fc12eaa7665bc833c38d5ac5a8fe",
+      "size": 7301
+    },
+    {
+      "path": "tests/cacc/test_semantic_authority_transition_redteam_v0117.py",
+      "sha256": "287b7518637b08c935ba1c79cc99edaec694bfff9e86dd6ebf574747cfde014c",
+      "size": 4073
+    },
+    {
+      "path": "tests/cacc/test_semantic_convergence_v0113.py",
+      "sha256": "7c4c11642c171b698b0580570b6538328653cb4e2f7961a3cacde105bc54ce55",
+      "size": 1859
+    },
+    {
+      "path": "tests/cacc/test_semantic_integrity_v011.py",
+      "sha256": "1e9ea72ebe4250616d7d4e5428d601c2d0e282294230942c3d260c468f668e53",
+      "size": 6671
+    },
+    {
+      "path": "tests/cacc/test_semantic_manifest_authority_v0115.py",
+      "sha256": "07202d45c9077fc9502009587ea73878efbdc709eba77b37435e5bb831f28b6d",
+      "size": 5868
+    },
+    {
+      "path": "tests/cacc/test_semantic_redteam_v010.py",
+      "sha256": "1767d0e0c4a16bfe5ecf093180064a6998382adb796ae63704ef7d59e43ec740",
+      "size": 310
+    },
+    {
+      "path": "tests/cacc/test_semantic_relevance_manifest_v0114.py",
+      "sha256": "f1b08998191e856cd2b3d483b0233a286a06cdaa0b4829be8859df4a3fadab25",
+      "size": 3333
+    },
+    {
+      "path": "tests/cacc/test_semantic_replay_v0112.py",
+      "sha256": "ad0487d51464142e4fca9772eba13ca746312cc8c528f55fb2eafa5e8c0a6d5c",
+      "size": 4150
+    },
+    {
+      "path": "tests/cacc/test_state_rollback.py",
+      "sha256": "3987df7b7bb27e3e7c8b026b6efa4f1a4fba4211296408a8e1394b8f8e41c506",
+      "size": 11513
+    },
+    {
+      "path": "tests/cacc/test_state_rollback_v010.py",
+      "sha256": "7544e8bb3e89d791bac7af35be61398bea19f9f851dd82b49f3e96ff0cac5e2d",
+      "size": 6590
+    },
+    {
+      "path": "tests/cacc/test_trusted_root.py",
+      "sha256": "a1eb874045bd4e5a2bb9c678db303edc0f1c50508db83576f2631400574bffab",
+      "size": 1743
+    },
+    {
+      "path": "tests/cacc/test_trusted_root_rotation_rollback.py",
+      "sha256": "8351111104ff0efde4d8d9cd6b9b5931fdc3ca89093efdd872f58f62ca7e66b8",
+      "size": 3062
+    },
+    {
+      "path": "tests/continuation/conftest.py",
+      "sha256": "a72c69d886c4bdbcd721bd8b8157c096142f82bb7b2dac60aa34d66db6180a5c",
+      "size": 363
+    },
+    {
+      "path": "tests/continuation/test_developmental_continuation.py",
+      "sha256": "e7fe9a28b44e1a15289eaedb7f7a05df14af76f198d6cf4ed78ad74b514cdd79",
+      "size": 3544
+    },
+    {
+      "path": "tests/persistence/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "tests/persistence/conftest.py",
+      "sha256": "c12d3feb6d9f54942fb459d00c448815dfa24f3df16b0d77ea40855d67f58c49",
+      "size": 1656
+    },
+    {
+      "path": "tests/persistence/test_concurrency.py",
+      "sha256": "2ae3e0c21f302ed3b8137c70456c01b0bf23935e6130d2553dfcc5edb1b4276f",
+      "size": 1160
+    },
+    {
+      "path": "tests/persistence/test_episode_history.py",
+      "sha256": "fd5e655fb2d0b0749c502f9deccb4279ba5e4677523743ad2273187302b572e8",
+      "size": 975
+    },
+    {
+      "path": "tests/persistence/test_failure_retention.py",
+      "sha256": "c040f3ce3e6a9ec7efce0948623c1d93a846ded302d281441623050ac43e161b",
+      "size": 1796
+    },
+    {
+      "path": "tests/persistence/test_identity.py",
+      "sha256": "6e95ac6ec02f7677e20cb8511071dc7d396b1eaa5e486efe5e2c54367202bedf",
+      "size": 1297
+    },
+    {
+      "path": "tests/persistence/test_immutability.py",
+      "sha256": "0d7017f3c38f24f7aa2b79c3019e2c680d37ae5814c832f34a9d565dff4035a5",
+      "size": 1078
+    },
+    {
+      "path": "tests/persistence/test_modification_history.py",
+      "sha256": "06a145dd6f3daf8b1674c35445285a5bcc5c17a9f487b88d651d342ac7826126",
+      "size": 1220
+    },
+    {
+      "path": "tests/persistence/test_provenance.py",
+      "sha256": "fd685f3d416bc10916d3843d515a41c5af3d41d9f14c74a44563beca22169fc9",
+      "size": 676
+    },
+    {
+      "path": "tests/persistence/test_reconstruction.py",
+      "sha256": "8e863c4881066f7ecfd9f696081885c92fa18b474b3adc1a1f02ad5b901ca967",
+      "size": 855
+    },
+    {
+      "path": "tests/persistence/test_regime_history.py",
+      "sha256": "8f486ebba70ee202da8530a9b7807c4798c4d294e9bf6db1f1d5844e37400d00",
+      "size": 1127
+    },
+    {
+      "path": "tests/persistence/test_rule_provenance.py",
+      "sha256": "e6f04d1f2465425263d9c51f17a65149c98182a765a17719a74c4001eefb8816",
+      "size": 1660
+    },
+    {
+      "path": "tests/persistence/test_versioning.py",
+      "sha256": "6162df81550176f3fcea84d8e91b2bbd0160417fb41159c83c1cb7aa553aec49",
+      "size": 1153
+    },
+    {
+      "path": "verification/ci/run_psi_seed_requirements_verifier.sh",
+      "sha256": "f4931e51905e59aa8c54debc221ac841206bc0da0517c57dc2e83ea3b7cc8e49",
+      "size": 179
+    },
+    {
+      "path": "verification/ci/test_psi_seed_requirements_wrapper.py",
+      "sha256": "1e0471f4d1d047a8e7f2335d8301d38097b202b565aed4709ffaa586ae1f6094",
+      "size": 964
+    },
+    {
+      "path": "verification/ci/verify_psi_seed_requirements.py",
+      "sha256": "e89429d7eec46db1c7e1464f380078fb2c3fd1c9af5206274aebb155f7c76384",
+      "size": 3304
+    }
+  ]
+}

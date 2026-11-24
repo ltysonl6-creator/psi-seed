@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://psi-seed.local/schemas/governance-decision.schema.json",
+  "title": "\u03a8-SEED Governance Decision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "governance_decision_id",
+    "candidate_id",
+    "decided_at",
+    "result",
+    "checks",
+    "provenance",
+    "causation_chain_id"
+  ],
+  "properties": {
+    "governance_decision_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decided_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "result": {
+      "type": "string",
+      "enum": [
+        "PERMITTED",
+        "REJECTED",
+        "BLOCKED",
+        "ESCALATED",
+        "EXPIRED"
+      ]
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "causation_chain_id": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

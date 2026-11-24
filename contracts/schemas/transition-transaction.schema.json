@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://psi-seed.local/schemas/transition-transaction.schema.json",
+  "title": "\u03a8-SEED Transition Transaction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "transition_id",
+    "choice_id",
+    "before_snapshot",
+    "proposed_state",
+    "evidence_delta",
+    "post_state",
+    "invariant_results",
+    "commit_status",
+    "timestamp",
+    "provenance",
+    "causation_chain_id"
+  ],
+  "properties": {
+    "transition_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "choice_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "before_snapshot": {
+      "type": "object"
+    },
+    "proposed_state": {
+      "type": "object"
+    },
+    "evidence_delta": {
+      "type": "object"
+    },
+    "post_state": {
+      "type": "object"
+    },
+    "invariant_results": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "commit_status": {
+      "type": "string",
+      "enum": [
+        "PROPOSED",
+        "COMMITTED",
+        "ROLLED_BACK",
+        "ABORTED"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "causation_chain_id": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

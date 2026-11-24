@@ -1,0 +1,32 @@
+{
+  "contract_id": "PSI-SEED-CONSTITUTION",
+  "version": "1.0",
+  "status": "FROZEN",
+  "authority": {
+    "history_completeness": "external_anchor_required",
+    "history_uniqueness": "stable_identity_and_lineage_required",
+    "trusted_root": "external_trust_domain_required",
+    "path_digest": "identifier_not_authority"
+  },
+  "layers": [
+    "STATE",
+    "TRANSITION",
+    "COMPOSITION",
+    "PATH",
+    "AUTHORITY"
+  ],
+  "invariants": [
+    {"id": "C-001", "name": "LEGITIMATE_BECOMING"},
+    {"id": "C-002", "name": "PATH_AUTHORITY"},
+    {"id": "C-003", "name": "CONVERGENT_STATE_NON_EQUIVALENCE"},
+    {"id": "C-004", "name": "ROLLBACK_IS_PATH"},
+    {"id": "C-005", "name": "STATE_VALIDITY"},
+    {"id": "C-006", "name": "TRANSITION_VALIDITY"},
+    {"id": "C-007", "name": "COMPOSITIONAL_CLOSURE"},
+    {"id": "C-008", "name": "PATH_CLOSURE"},
+    {"id": "C-009", "name": "HISTORY_COMPLETENESS"},
+    {"id": "C-010", "name": "HISTORY_UNIQUENESS"},
+    {"id": "C-011", "name": "EXTERNAL_AUTHORITY"},
+    {"id": "C-012", "name": "REPLAY_DETERMINISM"}
+  ]
+}

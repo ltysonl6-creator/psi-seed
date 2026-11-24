@@ -1,0 +1,28 @@
+"""Canonical CACC relationship types. These are permanent API identifiers."""
+POSSIBILITY_EVALUATED_BY = "possibility_evaluated_by"
+EVALUATION_SELECTED_AS_CANDIDATE = "evaluation_selected_as_candidate"
+CANDIDATE_GOVERNED_BY = "candidate_governed_by"
+GOVERNANCE_AUTHORIZES_CHOICE = "governance_authorizes_choice"
+CHOICE_EXECUTES_TRANSITION = "choice_executes_transition"
+TRANSITION_PRODUCES_OUTCOME = "transition_produces_outcome"
+OUTCOME_PERSISTED_AS_EVIDENCE = "outcome_persisted_as_evidence"
+EVIDENCE_FORMS_EPISODE = "evidence_forms_episode"
+EPISODE_SUPPORTS_RULE = "episode_supports_rule"
+DEVELOPMENT_CHANGES_POSSIBILITY_SPACE = "development_changes_possibility_space"
+FAILURE_FROM_TRANSITION = "failure_from_transition"
+ROLLBACK_OF_TRANSITION = "rollback_of_transition"
+
+ALL_CACC_RELATIONSHIP_TYPES = (
+    POSSIBILITY_EVALUATED_BY,
+    EVALUATION_SELECTED_AS_CANDIDATE,
+    CANDIDATE_GOVERNED_BY,
+    GOVERNANCE_AUTHORIZES_CHOICE,
+    CHOICE_EXECUTES_TRANSITION,
+    TRANSITION_PRODUCES_OUTCOME,
+    OUTCOME_PERSISTED_AS_EVIDENCE,
+    EVIDENCE_FORMS_EPISODE,
+    EPISODE_SUPPORTS_RULE,
+    DEVELOPMENT_CHANGES_POSSIBILITY_SPACE,
+    FAILURE_FROM_TRANSITION,
+    ROLLBACK_OF_TRANSITION,
+)

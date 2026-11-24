@@ -1,0 +1,74 @@
+{
+  "default_nested_payload_classification": "authoritative",
+  "manifest_id": "SRM-001",
+  "manifest_version": "0.11.4",
+  "sections": {
+    "contract_version": {
+      "_value": "non_semantic"
+    },
+    "entities": {
+      "created_at": "non_semantic",
+      "current_version": "non_semantic",
+      "entity_type": "non_semantic",
+      "id": "non_semantic",
+      "payload": "non_semantic",
+      "provenance": "non_semantic",
+      "revision_event_id": "non_semantic",
+      "status": "non_semantic",
+      "updated_at": "non_semantic"
+    },
+    "entity_identity": {
+      "created_at": "authoritative",
+      "entity_type": "authoritative",
+      "id": "authoritative"
+    },
+    "events": {
+      "event_type": "authoritative",
+      "id": "authoritative",
+      "occurred_at": "authoritative",
+      "payload": "authoritative",
+      "related_entity_refs": "authoritative",
+      "sequence": "authoritative"
+    },
+    "failures": {
+      "__flattened_payload__": "authoritative",
+      "created_at": "authoritative",
+      "entity_id": "authoritative",
+      "failure_class": "authoritative",
+      "id": "authoritative",
+      "payload": "authoritative"
+    },
+    "integrity": {
+      "record_hashes": "non_semantic",
+      "root": "non_semantic",
+      "section_hashes": "non_semantic"
+    },
+    "outcomes": {
+      "__flattened_payload__": "authoritative",
+      "created_at": "authoritative",
+      "entity_id": "authoritative",
+      "id": "authoritative",
+      "payload": "authoritative",
+      "version": "authoritative"
+    },
+    "relationships": {
+      "created_at": "authoritative",
+      "id": "authoritative",
+      "metadata": "authoritative",
+      "relationship_type": "authoritative",
+      "source_id": "authoritative",
+      "target_id": "authoritative"
+    },
+    "revisions": {
+      "__flattened_payload__": "authoritative",
+      "created_at": "authoritative",
+      "entity_id": "authoritative",
+      "payload": "authoritative",
+      "provenance": "authoritative",
+      "revision_event_id": "authoritative",
+      "status": "authoritative",
+      "version": "authoritative"
+    }
+  },
+  "unknown_field_policy": "FAIL_CLOSED"
+}

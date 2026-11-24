@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://psi-seed.local/schemas/continuation-state.schema.json",
+  "title": "Ψ-SEED Continuation State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "state",
+    "evaluated_at",
+    "evaluation_horizon",
+    "resources",
+    "development",
+    "decision",
+    "rule_version"
+  ],
+  "properties": {
+    "state": {
+      "type": "string",
+      "enum": [
+        "ACTIVE",
+        "IDLE",
+        "DEFERRED",
+        "EVALUATING",
+        "SHUTDOWN_ELIGIBLE",
+        "SHUTDOWN"
+      ]
+    },
+    "evaluated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "evaluation_horizon": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["started_at", "duration_seconds"],
+      "properties": {
+        "started_at": {"type": "string", "format": "date-time"},
+        "duration_seconds": {"type": "number", "minimum": 0}
+      }
+    },
+    "resources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["available", "exhausted"],
+      "properties": {
+        "available": {"type": "boolean"},
+        "exhausted": {"type": "boolean"}
+      }
+    },
+    "development": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "viable_avenue_known",
+        "material_uncertainty",
+        "pending_material_event"
+      ],
+      "properties": {
+        "viable_avenue_known": {"type": "boolean"},
+        "material_uncertainty": {"type": "boolean"},
+        "pending_material_event": {"type": "boolean"}
+      }
+    },
+    "decision": {
+      "type": "string",
+      "enum": ["CONTINUE", "IDLE", "DEFER", "SHUTDOWN_ELIGIBLE", "SHUTDOWN"]
+    },
+    "rule_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}

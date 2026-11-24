@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://psi-seed/contracts/trusted-root.schema.json",
+  "title": "CACC Trusted Root",
+  "type": "object",
+  "required": [
+    "contract",
+    "algorithm",
+    "history_scope",
+    "root_digest",
+    "anchored_at",
+    "history_generation",
+    "status",
+    "provenance"
+  ],
+  "properties": {
+    "contract": {
+      "const": "CACC-TR-001"
+    },
+    "algorithm": {
+      "const": "sha256"
+    },
+    "history_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "root_digest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "anchored_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "history_generation": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "previous_root_digest": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "status": {
+      "enum": [
+        "ACTIVE",
+        "RETIRED"
+      ]
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "signature": {
+      "type": [
+        "object",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

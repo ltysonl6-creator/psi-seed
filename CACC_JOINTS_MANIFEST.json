@@ -1,0 +1,25 @@
+{
+  "new_paths": [
+    "contracts/cacc_joint_validation.py",
+    "contracts/cacc_joints_contract.md",
+    "contracts/cacc_relationship_types.py",
+    "contracts/schemas/candidate-selection.schema.json",
+    "contracts/schemas/choice.schema.json",
+    "contracts/schemas/evaluation.schema.json",
+    "contracts/schemas/governance-decision.schema.json",
+    "contracts/schemas/possibility.schema.json",
+    "contracts/schemas/transition-transaction.schema.json",
+    "psi_seed/cacc/__init__.py",
+    "psi_seed/cacc/service.py",
+    "tests/cacc/__init__.py",
+    "tests/cacc/conftest.py",
+    "tests/cacc/test_cacc_joints.py",
+    "psi_seed/persistence/sqlite/backend.py",
+    "psi_seed/cacc/service.py",
+    "tests/cacc/test_state_rollback.py",
+    "CACC_STATE_ROLLBACK_V0.9.md",
+    "STRESS_REPORT_V0.9.md"
+  ],
+  "package": "psi_seed_cacc_state_rollback_v0.9",
+  "parent": "psi_seed_cacc_root_rotation_rollback_v0.8"
+}

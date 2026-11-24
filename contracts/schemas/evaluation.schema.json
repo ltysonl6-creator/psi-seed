@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://psi-seed.local/schemas/evaluation.schema.json",
+  "title": "\u03a8-SEED Evaluation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "evaluation_id",
+    "possibility_id",
+    "evaluated_at",
+    "scores",
+    "decision",
+    "provenance",
+    "causation_chain_id"
+  ],
+  "properties": {
+    "evaluation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "possibility_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evaluated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      }
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "ADVANCE",
+        "DEFER",
+        "REJECT",
+        "SUPPRESS",
+        "ABANDON",
+        "EXPIRE"
+      ]
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "causation_chain_id": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

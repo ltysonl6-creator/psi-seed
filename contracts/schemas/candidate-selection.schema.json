@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://psi-seed.local/schemas/candidate-selection.schema.json",
+  "title": "\u03a8-SEED Candidate Selection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidate_id",
+    "evaluation_id",
+    "possibility_id",
+    "selected_at",
+    "selection_status",
+    "selection_basis",
+    "provenance",
+    "causation_chain_id"
+  ],
+  "properties": {
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evaluation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "possibility_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "selected_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "selection_status": {
+      "type": "string",
+      "enum": [
+        "SELECTED",
+        "NOT_SELECTED",
+        "DEFERRED"
+      ]
+    },
+    "selection_basis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "causation_chain_id": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

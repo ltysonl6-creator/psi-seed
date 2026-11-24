@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://psi-seed.local/schemas/choice.schema.json",
+  "title": "\u03a8-SEED Choice",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "choice_id",
+    "possibility_id",
+    "candidate_id",
+    "governance_decision_id",
+    "decision_time",
+    "decision_basis",
+    "selected_action",
+    "decision_status",
+    "decision_provenance",
+    "causation_chain_id"
+  ],
+  "properties": {
+    "choice_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "possibility_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "governance_decision_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision_time": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "decision_basis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "selected_action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision_status": {
+      "type": "string",
+      "enum": [
+        "COMMITTED",
+        "CANCELLED",
+        "ROLLED_BACK"
+      ]
+    },
+    "decision_provenance": {
+      "type": "object"
+    },
+    "causation_chain_id": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}
